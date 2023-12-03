@@ -28,11 +28,8 @@ public class Main {
             case '-':
                 result = num1 - num2;
                 System.out.println("Result: " + num1 + " - " + num2 + " = " + result);
-                break;
-            case '*':
-                result = num1 * num2;
-                System.out.println("Result: " + num1 + " * " + num2 + " = " + result);
-                break;
+              break;
+    
             default:
                 System.out.println("Invalid operator. Please use +, -, or *.");
             }
